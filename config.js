@@ -97,6 +97,16 @@ module.exports.detectors = [
         testString: "fantastic!"
     },
     {
+        regex: /(^enough with) (.+!$)/i,
+        img: 'http://meme.loqi.me/img/batman-slap.jpg',
+        testString: "Enough with the memes!"
+    },
+    {
+        regex: /(^.+ (?:is|are) better, no .+ (?:is|are) better[!\.])/i,
+        img: 'http://meme.loqi.me/img/shampoo-is-better.jpg',
+        testString: "Shampoo is better, no conditioner is better!"
+    },
+    {
         regex: /(.+ over )([0-9]+)([\.!]*)$/i,
         img: 'http://meme.loqi.me/img/over_9000.jpg',
         testString: "His karma, it's over 9000!",
