@@ -107,7 +107,7 @@ module.exports.detectors = [
         testString: "Nobody expects a pull request!"
     },
     {
-        regex: /(^.+ (?:is|are) better, no .+ (?:is|are) better[!\.])/i,
+        regex: /(^.+ (?:is|are) better), (no .+ (?:is|are) better[!\.])/i,
         img: 'http://meme.loqi.me/img/shampoo-is-better.jpg',
         testString: "Shampoo is better, no conditioner is better!"
     },
