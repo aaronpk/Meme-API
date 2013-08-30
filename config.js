@@ -102,9 +102,9 @@ module.exports.detectors = [
         testString: "Enough with the memes!"
     },
     {
-        regex: /(^nobody expects) (.+!$)/i,
+        regex: /(^nobody expects) (.+$)/i,
         img: 'http://meme.loqi.me/img/inquisition.jpg',
-        testString: "Enough with the memes!"
+        testString: "Nobody expects a pull request!"
     },
     {
         regex: /(^.+ (?:is|are) better, no .+ (?:is|are) better[!\.])/i,
