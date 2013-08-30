@@ -12,7 +12,7 @@ module.exports.detectors = [
         testString: "I don't always test my code, but when I do, I do it in production."
     },
     {
-        regex: /(\w+(?: \w+)?) (all the .+s)[!\.]*$/i,
+        regex: /^(\w+(?: \w+)?) (all the \w+s)[!\.]*$/i,
         img: 'http://meme.loqi.me/img/all_the_things.jpg',
         testString: "Refactor all the things!"
     },
@@ -95,6 +95,11 @@ module.exports.detectors = [
         regex: /^()(fantastic)!*$/i,
         img: 'http://meme.loqi.me/img/fantastic-doctor.jpg',
         testString: "fantastic!"
+    },
+    {
+        regex: /(^enough with) (.+!$)/i,
+        img: 'http://meme.loqi.me/img/batman-slap.jpg',
+        testString: "Enough with the memes!"
     },
     {
         regex: /(.+ over )([0-9]+)([\.!]*)$/i,
