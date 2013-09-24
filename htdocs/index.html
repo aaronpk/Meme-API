@@ -9,7 +9,7 @@
   <meta http-equiv="refresh" content="600">
 </head>
 <body>
-  <img src="" id="meme" style="display: block; max-height: 100%; max-width: 100%; margin: 0 auto;" />
+  <div id="meme" style="position:absolute; top:0; bottom:0; left:0; right:0; display: block; background-size:contain; background-position: center center; background-repeat: no-repeat; background-color: transparent;"></div>
 </body>
 </html>
 
@@ -24,7 +24,9 @@ $(function(){
 
   function handle_response(data) {
     if(data.result && data.result.img_url) {
-      $("#meme").attr("src", data.result.img_url);
+      //$("#meme").attr("src", data.result.img_url);
+      var imageUrl = 'url("' + data.result.img_url + '")';
+      $("#meme").css( "background-image", imageUrl);
       return true;
     } else {
       return false;
