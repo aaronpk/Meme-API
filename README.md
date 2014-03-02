@@ -8,15 +8,27 @@ Top text is filled with message before the first '.' is encountered. Unless ther
 
 Default image is the Aliens guy:
 
-<img src="http://memecaptain.com/aliens.jpg" height="100" width="100" />
+<img src="api/public/img/aliens.jpg" height="105" width="120" />
 
-You can override the default image by putting an image url after the message surrounded by [].
+You can override the default image by putting an image url or search term after the message surrounded by <code>[]</code>.
 
-Example
-=======
-<code>!meme I don't always test my code. But when I do, I do it in production [http://memecaptain.com/most_interesting.jpg]</code>
+Examples
+========
+<code>!meme I don't always test my code. | But when I do, I do it in production [http://memecaptain.com/most_interesting.jpg]</code>
 
-![](http://memecaptain.com/8eba0c.jpg)
+<img src="http://memecaptain.com/8eba0c.jpg" width="200" />
+
+<code>!meme Top | Bottom [http://memecaptain.com/most_interesting.jpg]</code>
+
+<code>!meme Top | Bottom [largest bunny]</code>
+
+Auto-detecting memes
+====================
+
+Certain sentences will be auto-matched according to the regexes in [config.js](config.js), and memes will be created without explicitly using the <code>!meme</code> command.
+
+Feel free to add new meme templates to config.js!
+
 
 Note
 ====
