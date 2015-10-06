@@ -111,6 +111,11 @@ module.exports.detectors = [
         img: 'http://meme.loqi.me/img/shampoo-is-better.jpg',
         testString: "Shampoo is better, no conditioner is better!"
     },
+        {
+        regex: /(^if .+) (I would be so happy[!\.]?)/i,
+        img: 'http://meme.loqi.me/img/craig-happy.jpg',
+        testString: "If it was warmer, I would be so happy"
+    },
     {
         regex: /(.+ over )([0-9]+)([\.!]*)$/i,
         img: 'http://meme.loqi.me/img/over_9000.jpg',
