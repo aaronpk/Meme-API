@@ -32,7 +32,7 @@ module.exports.detectors = [
         testString: "Yo dawg I herd you like regex. so we put a regex in yo regex so you can match while you match."
     },
     {
-        regex: /(^the .+) (is too damn \w+[!\.]?$)/i,
+        regex: /(^.+) (is too damn .+[!\.]?$)/i,
         img: 'http://meme.loqi.me/img/too_damn_high.jpg',
         testString: "The amount of memes in this channel is too damn high!"
     },
