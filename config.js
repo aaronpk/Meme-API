@@ -128,5 +128,10 @@ module.exports.detectors = [
             t1 = false;
             t2 = false;
         }
+    },
+    {
+        regex: /^(And then (?:we|I) told (?:him|her|them),?) (.+)$/i,
+        img: "http://meme.loqi.me/img/laughing-men.jpg",
+        testString: "And then we told him we had consensus!"
     }
 ];
