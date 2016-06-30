@@ -87,6 +87,13 @@ post '/message' do
 
   headers 'Content-type' => 'application/json'
   if img
+    # If the message is from Slack, send back a typing indicator
+    if @params['network'] == 'slack'
+      HTTParty.post @params['response_url'], {
+        body: {action: 'typing'}
+      }
+    end
+
     meme = make_meme img, top, bottom
 
     DB[:memes] << {
