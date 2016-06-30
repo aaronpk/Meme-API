@@ -1,6 +1,17 @@
 source 'https://rubygems.org'
 
+gem 'rake'
+
 gem 'thin'
 gem 'sinatra'
+gem 'httparty'
 gem 'meme_captain'
 gem 'new_base_60'
+
+group :development do
+  gem 'shotgun'
+end
+
+group :test do
+  gem 'minitest'
+end

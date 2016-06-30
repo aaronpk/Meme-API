@@ -1,0 +1,122 @@
+{"memes": [
+  {
+    "regex": "(^I don't always .+) (but when I do,? .+$)",
+    "img": "most_interesting.jpg",
+    "test": "I don't always test my code, but when I do, I do it in production."
+  },
+  {
+    "regex": "^(\\w+(?: \\w+)?) (all the \\w+s)[!\\.]*$",
+    "img": "all_the_things.jpg",
+    "test": "Refactor all the things!"
+  },
+  {
+    "regex": "(^one does not simply) (.+$)",
+    "img": "boromir.jpg",
+    "test": "One does not simply meme in IRC."
+  },
+  {
+    "regex": "(^not sure if [^\\|]+)(?: \\|)? (or .+$)",
+    "img": "fry.png",
+    "test": "Not sure if this is working, or is awesome."
+  },
+  {
+    "regex": "(^yo,? (?:dawg|dog)[\\.,]* I hea?rd (?:you|u) like .+) (so (?:i|we) .+$)",
+    "img": "xzibit.jpg",
+    "test": "Yo dawg I herd you like regex. so we put a regex in yo regex so you can match while you match."
+  },
+  {
+    "regex": "(^.+) (is too damn .+[!\\.]?$)",
+    "img": "too_damn_high.jpg",
+    "test": "The amount of memes in this channel is too damn high!"
+  },
+  {
+    "regex": "(^(?:brace yourselves,? )?)(.+ (?:is|are) coming[!\\.]?$)",
+    "img": "ned_stark.jpg",
+    "test": "Brace yourselves the memes are coming."
+  },
+  {
+    "regex": "(^what if) (.+[\\?!]+$)",
+    "img": "conspiracy_keanu.jpg",
+    "test": "What if space nachos?!"
+  },
+  {
+    "regex": "(^.+) (and you should feel bad\\.?$)",
+    "img": "you_should_feel_bad.jpg",
+    "test": "This meme is bad; and you should feel bad."
+  },
+  {
+    "regex": "(^.+) (y u no .+$)",
+    "img": "y_u_no.jpg",
+    "test": "IRC y u no do memes yourself?"
+  },
+  {
+    "regex": "(^am i the only one around here) (.+$)",
+    "img": "walter.jpg",
+    "test": "Am I the only one around here who gives a shit about the rules?!"
+  },
+  {
+    "regex": "(^.+) (so hot right now[\\.!]*$)",
+    "img": "mugatu.jpg",
+    "test": "Memes, so hot right now."
+  },
+  {
+    "regex": "(^ermahgerd[!\\.]*) (.+$)",
+    "img": "ermahgerd.jpg",
+    "test": "ermahgerd! Space nachos!"
+  },
+  {
+    "regex": "(^.+) (is strong with this one[!\\.]*$)",
+    "img": "emperor.jpg",
+    "test": "The force is strong with this one."
+  },
+  {
+    "regex": "(^this is) (.+!$)",
+    "img": "sparta.jpg",
+    "test": "This is IRC!"
+  },
+  {
+    "regex": "(^.+,?) (ain'?t nobody got time for? (?:th|d)at[!\\.]*)$",
+    "img": "time_for.jpg",
+    "test": "Bronchitis, ain't nobody got time for that!"
+  },
+  {
+    "regex": "(.+) (\\w+ go(?:es)? to (?:eleven|11))!?$",
+    "img": "goes_to_eleven.jpg",
+    "test": "The memes, they go to eleven!"
+  },
+  {
+    "regex": "^()(fantastic)!*$",
+    "img": "fantastic-doctor.jpg",
+    "test": "fantastic!"
+  },
+  {
+    "regex": "(^enough with) (.+!$)",
+    "img": "batman-slap.jpg",
+    "test": "Enough with the memes!"
+  },
+  {
+    "regex": "(^nobody expects) (.+$)",
+    "img": "inquisition.jpg",
+    "test": "Nobody expects a pull request!"
+  },
+  {
+    "regex": "(^.+ (?:is|are) better), (no .+ (?:is|are) better[!\\.])",
+    "img": "shampoo-is-better.jpg",
+    "test": "Shampoo is better, no conditioner is better!"
+  },
+  {
+    "regex": "(^if .+) (I would be so happy[!\\.]?)$",
+    "img": "craig-happy.jpg",
+    "test": "If it was warmer, I would be so happy"
+  },
+  {
+    "regex": "(.+ over) ([0-9]+[\\.!]*)$",
+    "img": "over_9000.jpg",
+    "test": "His karma, it's over 9000!"
+  },
+  {
+    "regex": "^(and then (?:we|I) told (?:him|her|them),?) (.+)$",
+    "img": "laughing-men.jpg",
+    "test": "And then we told him we had consensus!"
+  }
+]}
