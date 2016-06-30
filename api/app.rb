@@ -4,6 +4,8 @@ require 'json'
 MemeMatch.load_memes
 $config = YAML.load_file 'config.yml'
 
+DB = Sequel.connect $config['database']
+
 get '/g' do
 
   if !params[:u].match(/^http:/)
@@ -87,6 +89,16 @@ post '/message' do
   if img
     meme = make_meme img, top, bottom
 
+    DB[:memes] << {
+      date: DateTime.now.strftime('%Y-%m-%d %H:%M:%S'),
+      tz: @params['author']['tz'],
+      nick: @params['author']['nickname'],
+      channel: @params['channel']['name'],
+      server: @params['server'],
+      filename: meme[:filename],
+      text: @params['content']
+    }
+
     # If the message is from Slack, respond with the image as an attachment
     if @params['network'] == 'slack'
       if !top.nil? && !bottom.nil?
@@ -97,15 +109,15 @@ post '/message' do
         title = bottom
       end
 
-      response = {
-        attachments: [
-          {
-            "fallback": meme[:url],
-            "title": title,
-            "image_url": meme[:url]
-          }
-        ]
-      }.to_json
+      # response = {
+      #   attachments: [
+      #     {
+      #       "fallback": meme[:url],
+      #       "title": title,
+      #       "image_url": meme[:url]
+      #     }
+      #   ]
+      # }.to_json
       response = {
         file: {
           "title": title,
@@ -135,7 +147,7 @@ def make_meme(img, top, bottom)
       end
       filename = "#{DateTime.now.to_sxg}#{SecureRandom.random_number(60**5).to_sxg}.#{ext}"
       i.write("./public/m/#{filename}")
-      {url: "#{$config['base_url']}/m/#{filename}"}
+      {url: "#{$config['base_url']}/m/#{filename}", filename: filename}
     rescue => e
       {error: e.message}
     end

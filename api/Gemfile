@@ -8,6 +8,9 @@ gem 'httparty'
 gem 'meme_captain'
 gem 'new_base_60'
 
+gem 'mysql2'
+gem 'sequel'
+
 group :development do
   gem 'shotgun'
 end
