@@ -45,7 +45,7 @@ post '/message' do
     # user explicitly requested a meme
     text = match.captures[0]
     # check if they specified an image or image search
-    if match=/\[(https?:\/\/[^\] ]+)\]$/.match(text)
+    if match=/(.+) \[(https?:\/\/[^\] ]+)\]$/.match(text)
       text = match.captures[0]
       img = match.captures[1]
       split = MemeMatch.split text
