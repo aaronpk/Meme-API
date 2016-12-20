@@ -108,5 +108,10 @@
     "regex": "^(and then (?:we|I) told (?:him|her|them),?) (.+)$",
     "img": "laughing-men.jpg",
     "test": "And then we told him we had consensus!"
+  },
+  {
+    "regex": "^(.+ (?:is|are)(?: ?n['o]?t) the .+) (you'?re looking for)",
+    "img": "kenobi.gif",
+    "test": "These are not the droids you're looking for"
   }
 ]}
