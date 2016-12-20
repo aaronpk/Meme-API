@@ -5,7 +5,7 @@
     "test": "I don't always test my code, but when I do, I do it in production."
   },
   {
-    "regex": "^(\\w+(?: \\w+)?) (all the \\w+s)[!\\.]*$",
+    "regex": "^([\\w:]+(?: [\\w:]+)?) (all the [\\w:]+s)[!\\.]*$",
     "img": "all_the_things.jpg",
     "test": "Refactor all the things!"
   },
@@ -30,7 +30,7 @@
     "test": "The amount of memes in this channel is too damn high!"
   },
   {
-    "regex": "(^(?:brace yourselves,? )?)(.+ (?:is|are) coming[!\\.]?$)",
+    "regex": "^(brace yourselves)[, ]+(.+ (?:is|are) coming)[!\\.]?$",
     "img": "ned_stark.jpg",
     "test": "Brace yourselves the memes are coming."
   },
