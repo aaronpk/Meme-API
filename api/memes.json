@@ -60,11 +60,6 @@
     "test": "Memes, so hot right now."
   },
   {
-    "regex": "(^ermahgerd[!\\.]*) (.+$)",
-    "img": "ermahgerd.jpg",
-    "test": "ermahgerd! Space nachos!"
-  },
-  {
     "regex": "(^.+) (is strong with this one[!\\.]*$)",
     "img": "emperor.jpg",
     "test": "The force is strong with this one."
@@ -73,11 +68,6 @@
     "regex": "(^this is) (.+!$)",
     "img": "sparta.jpg",
     "test": "This is IRC!"
-  },
-  {
-    "regex": "(^.+,?) (ain'?t nobody got time for? (?:th|d)at[!\\.]*)$",
-    "img": "time_for.jpg",
-    "test": "Bronchitis, ain't nobody got time for that!"
   },
   {
     "regex": "(.+) (\\w+ go(?:es)? to (?:eleven|11))!?$",
@@ -118,5 +108,10 @@
     "regex": "^(and then (?:we|I) told (?:him|her|them),?) (.+)$",
     "img": "laughing-men.jpg",
     "test": "And then we told him we had consensus!"
+  },
+  {
+    "regex": "^(.+ (?:is|are)(?: ?n['o]?t) the .+) (you'?re looking for)",
+    "img": "kenobi.gif",
+    "test": "These are not the droids you're looking for"
   }
 ]}
