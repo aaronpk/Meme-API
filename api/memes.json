@@ -113,5 +113,15 @@
     "regex": "^(.+ (?:is|are)(?: ?n['o]?t) the .+) (you'?re looking for)",
     "img": "kenobi.gif",
     "test": "These are not the droids you're looking for"
+  },
+  {
+    "regex": "^(.+) ([^ ]+ kermit panic\\?*)$",
+    "img": "kermit-panic.gif",
+    "test": "did you immediately kermit panic?"
+  },
+  {
+    "regex": "^([^,]+),? (panic!+?)$",
+    "img": "kermit-panic.gif",
+    "test": "ok, panic!!"
   }
 ]}
