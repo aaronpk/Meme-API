@@ -1,6 +1,6 @@
 {"memes": [
   {
-    "regex": "(^I don't always .+) (but when I do,? .+$)",
+    "regex": "(^I don't (?:always|normally|usually) .+) (but when I do,? .+$)",
     "img": "most_interesting.jpg",
     "test": "I don't always test my code, but when I do, I do it in production."
   },
