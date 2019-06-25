@@ -123,5 +123,10 @@
     "regex": "^([^,]+),? (panic!+?)$",
     "img": "kermit-panic.gif",
     "test": "ok, panic!!"
+  },
+  {
+    "regex": "([^\\|]+)(?: \\|)? (I will find .+$)",
+    "img": "taken.jpg",
+    "test": "I don't know who you are. I will find you and add you to my LinkedIn."
   }
 ]}
