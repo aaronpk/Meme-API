@@ -100,7 +100,7 @@
     "test": "If it was warmer, I would be so happy"
   },
   {
-    "regex": "(.+ over) ([0-9]+[\\.!]*)$",
+    "regex": "(.+) (over [0-9]+[\\.!]*)$",
     "img": "over_9000.jpg",
     "test": "His karma, it's over 9000!"
   },
