@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.5.1
+  - 2.6.3
 root: false
 gemfile: api/Gemfile
 script: sh -c 'cd api && bundle exec rake'

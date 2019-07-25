@@ -128,5 +128,10 @@
     "regex": "([^\\|]+)(?: \\|)? (I will find .+$)",
     "img": "taken.jpg",
     "test": "I don't know who you are. I will find you and add you to my LinkedIn."
+  },
+  {
+    "regex": "(^i am the) (.+$)",
+    "img": "i_am_the_law.jpg",
+    "test": "I am the cloud."
   }
 ]}
