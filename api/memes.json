@@ -130,8 +130,8 @@
     "test": "I don't know who you are. I will find you and add you to my LinkedIn."
   },
   {
-    "regex": "(^i am the) (.+$)",
+    "regex": "^(i .+),? (i am the .+)$",
     "img": "i_am_the_law.jpg",
-    "test": "I am the cloud."
+    "test": "I can't break the cloud, I am the cloud!"
   }
 ]}
