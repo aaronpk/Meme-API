@@ -3,4 +3,6 @@ rvm:
   - 2.5.1
 root: false
 gemfile: api/Gemfile
+before_script:
+  - gem install bundler -v "$(grep -A 1 "BUNDLED WITH" Gemfile.lock | tail -n 1)"
 script: sh -c 'cd api && bundle exec rake'
