@@ -132,6 +132,6 @@
   {
     "regex": "(^i am the) (.+$)",
     "img": "i_am_the_law.jpg",
-    "test": "One does not simply meme in IRC."
+    "test": "I am the cloud."
   }
 ]}
