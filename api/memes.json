@@ -65,7 +65,7 @@
     "test": "The force is strong with this one."
   },
   {
-    "regex": "(^this is) (.+!$)",
+    "regex": "(^this is) (.{1,50}!$)",
     "img": "sparta.jpg",
     "test": "This is IRC!"
   },
