@@ -14,7 +14,7 @@ GEM
     mustermann (1.0.3)
     mysql2 (0.5.2)
     new_base_60 (1.1.2)
-    rack (2.0.7)
+    rack (2.2.3)
     rack-protection (2.0.5)
       rack
     rake (12.3.3)
