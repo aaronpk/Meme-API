@@ -133,5 +133,10 @@
     "regex": "^(i .+),? (i am the .+)$",
     "img": "i_am_the_law.jpg",
     "test": "I can't break the cloud, I am the cloud!"
+  },
+  {
+    "regex": "^(oh really.+[,\? ]+?)(tell me more.+)",
+    "img": "wonka.jpg",
+    "test": "oh really? tell me more..."
   }
 ]}
